@@ -1,0 +1,8 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate.dll-auto: create-drop
+    properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    initialization-mode: always
+    driver-class-name: org.postgresql.Driver
